@@ -30,7 +30,6 @@ This project uses a combination of modern technologies to create a robust and sc
 | **Backend**          | `Node.js`, `Express.js`                                                            |
 | **Database**         | `MySQL` (hosted on `AWS RDS`)                                                      |
 | **Machine Learning** | `Python`, `Scikit-learn`, `Pandas`, `Joblib`                                       |
-| **Authentication**   | `JSON Web Tokens (JWT)`, `bcrypt.js`                                               |
 | **Environment**      | `dotenv` for secure secret management                                              |
 
 ---
