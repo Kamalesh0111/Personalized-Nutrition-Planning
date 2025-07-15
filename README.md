@@ -143,9 +143,7 @@ node server.js
 cd frontend
 npm run dev
 # Vite will open your browser to http://localhost:5173 (or a similar port)
-```
 
----
 
 ## API Endpoints
 
@@ -158,17 +156,3 @@ All API routes are prefixed with `/api`.
 | `POST` | `/recommendation` | Generates and saves a new plan.    |      Yes      |
 | `GET`  | `/history`        | Fetches all past plans for a user. |      Yes      |
 
----
-
-## 🔮 Future Improvements
-
--   [ ] **Containerize the Application**: Use Docker and Docker Compose to simplify setup and deployment.
--   [ ] **More Complex Models**: Implement more advanced models (e.g., neural networks) for even more nuanced recommendations.
--   [ ] **User Progress Tracking**: Allow users to log their weight and workouts to visualize their progress over time.
--   [ ] **Food Logging**: Add a feature to log daily meals and track calorie/macro intake against the recommended plan.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
