@@ -1,0 +1,25 @@
+# Dependencies and build files
+node_modules/
+dist/
+.env
+
+# Machine Learning artifacts
+# The .pkl file is a build artifact. Your repo should contain the code
+# to CREATE the model, not the model file itself.
+*.pkl
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
